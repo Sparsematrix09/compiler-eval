@@ -1,0 +1,16 @@
+{
+  "name": "muzeel",
+  "version": "1.0.0",
+  "description": "Muzeel - JavaScript Dead Code Elimination Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "analyze": "node muzeel-core.js",
+    "demo": "npm run analyze && npm start"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "puppeteer": "^24.0.0",
+    "fs-extra": "^11.0.0"
+  }
+}

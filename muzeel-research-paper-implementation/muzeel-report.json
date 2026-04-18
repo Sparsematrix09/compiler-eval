@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-04-17T03:46:10.903Z",
+  "analysis": {
+    "total": 12,
+    "used": 5,
+    "dead": 7,
+    "usedFunctions": [
+      "handleClick",
+      "handleHover",
+      "handleHoverOut",
+      "showAlert",
+      "calculateSum"
+    ],
+    "deadFunctions": [
+      "unusedFunction1",
+      "unusedFunction2",
+      "unusedAnalyticsTracker",
+      "unusedDOMManipulator",
+      "unusedHeavyComputation",
+      "track",
+      "addFunction"
+    ],
+    "eliminationRate": "58.33"
+  },
+  "summary": {
+    "totalFunctions": 12,
+    "deadFunctionsCount": 7,
+    "usedFunctionsCount": 5,
+    "deadCodePercentage": "58.33",
+    "estimatedSavings": "58.3% code reduction"
+  },
+  "deadFunctionsList": [
+    "unusedFunction1",
+    "unusedFunction2",
+    "unusedAnalyticsTracker",
+    "unusedDOMManipulator",
+    "unusedHeavyComputation",
+    "track",
+    "addFunction"
+  ],
+  "usedFunctionsList": [
+    "handleClick",
+    "handleHover",
+    "handleHoverOut",
+    "showAlert",
+    "calculateSum"
+  ]
+}
